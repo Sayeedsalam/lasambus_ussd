@@ -25,7 +25,7 @@ def get_id():
 
 
 
-@app.route('/api/track', methods=['POST'])
+@app.route('/api/track')
 def track_incident():
     incident_id = request.args.get("incident_id")
 
